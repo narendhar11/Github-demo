@@ -1,15 +1,58 @@
-Git configuration into our local mechanie
-==========================================
+Git Basic Workflow with GitHub
+==============================
+A quick introduction to Git with an hands on example starting with GitHub, making local changes and back to GitHub again.
+Setup the Project Folder
 
-git config --global user.name "narendhar11"
-git config --global user.emial "naru2112@gmail.com"
+Command Listing
+===============
+#use git bash terminal 
+pwd
+mkdir projects
+cd projects
+pwd
+
+Git Configuration
+=================
+Command Listing
+## use git bash terminal 
+
+git version
+git config --global user.name "Abe Lincoln"
+git config --global user.email "mrabe@git.training"
 git config --global --list
 
-Copy your repositary into your local system
-============================================
+Copy the Repository (clone)
+===========================
+Command Listing
+## use git bash terminal 
 
-copy url from github repositary:
-
+# paste in your GitHub HTTPS clone URL
 git clone https://github.com/narendhar11/Github-demo.git
 
-git status tell us where is it also tell that up-to-date
+ls
+cd Github-demo
+ls
+git status
+
+
+The First Commit
+=================
+Command Listing
+## use git bash terminal 
+
+echo "Test Git Quick Start demo" >> start.txt
+ls
+cat start.txt
+git status
+git add start.txt (or) git add * * means all files
+git status
+git commit -m "Adding start text file"
+git status
+
+Publishing Changes to GitHub (push)
+===================================
+Command Listing
+
+git push origin master
+
+#Here it will ask you github username and password
