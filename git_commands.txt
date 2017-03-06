@@ -1,0 +1,15 @@
+Git configuration into our local mechanie
+==========================================
+
+git config --global user.name "narendhar11"
+git config --global user.emial "naru2112@gmail.com"
+git config --global --list
+
+Copy your repositary into your local system
+============================================
+
+copy url from github repositary:
+
+git clone https://github.com/narendhar11/Github-demo.git
+
+git status tell us where is it also tell that up-to-date
