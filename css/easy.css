@@ -1,0 +1,161 @@
+body{
+
+  font-family: 'maven pro';
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizelegibility;
+  font-size: 15px;
+
+}
+
+/*h2:hover{
+  font-size:20px;
+}*/
+.navbar-default {
+ background-color: white;
+ /*border-color: #9d3179;*/
+
+}
+.navbar-default .navbar-nav>li>a{
+  color: #9d3179;
+}
+.navbar-default .navbar-nav>.active>a{
+  color: white;
+  background-color: #9d3179
+}
+.navbar-default .navbar-nav>li>a:hover{
+  background-color: #9d3179;
+  color: white;
+}
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+color: #fff;
+background-color: #9d3179;
+}
+/*.navbar-collapse li:hover{
+background-color: #9d3179;
+color: white;
+}*/
+.navbsar-default .navbar-brand{
+	color: #fff;
+}
+#nav-address{
+  margin-top: 8px;
+}
+#navbar-collapse-target{
+  margin-top: 15px;
+}
+.btn-info {
+color: #fff;
+background-color: #9D3179;
+border-color: #FFFFFF;
+}
+.btn-info:hover{
+color: #fff;
+background-color: #9D3179;
+border-color: #FFFFFF;
+}
+.multi-column-dropdown>li {
+  list-style: none;
+}
+.multi-column-dropdown>li>a {
+  color: #9D3179;
+  display: block;
+  clear: both;
+  line-height: 1.428571429;
+  
+  white-space: normal;
+}
+.multi-column-dropdown>li>a:hover {
+color: #FFFFFF;
+  text-decoration: none;
+  background-color: #9D3179;
+}
+.dropdown-menu>li>a{
+  color: #9D3179;
+}
+.dropdown-menu>li>a:hover{
+  color: #FFFFFF;
+  text-decoration: none;
+  background-color: #9D3179;
+}
+ /*---------------
+  *Carousel
+  *--------------------
+  */
+#myCarousel{
+  margin-top: 65px;
+  {$Duration:1200,x:1,$Delay:40,$Cols:6,$Formation:$JssorSlideshowFormations$.$FormationStraight,$Easing:{$Left:$JssorEasing$.$EaseInOutQuart,$Opacity:$JssorEasing$.$EaseLinear},$Opacity:2,$ZIndex:-10,$Brother:{$Duration:1200,x:1,$Delay:40,$Cols:6,$Formation:$JssorSlideshowFormations$.$FormationStraight,$Easing:{$Top:$JssorEasing$.$EaseInOutQuart,$Opacity:$JssorEasing$.$EaseLinear},$Opacity:2,$ZIndex:-10,$Shift:-100}};
+}
+
+#myCarousel .item{height: 400px;}
+
+#slide1{
+  background-image: url('img/SelfServ2.jpg');
+
+}
+#slide2{
+  background-image: url('img/Main1-LinktoAboutus.jpg');
+}
+#slide3{
+  background-image: url('img/Service2.jpg');
+}
+
+.image-bg-fixed-height{
+  background-image: url('img/Support1.JPG');
+}
+.home-section{
+    height: 100%;
+    padding-top: 20px;
+    text-align: left;
+}
+.section-heading{
+  display: block;
+  cursor: pointer;
+  margin: 1em 0em;
+}
+.about-section {
+    height: 100%;
+    /*padding-top: 90px;*/
+    text-align: left;
+    /*background: #eee;*/
+}
+.product-section{
+	height: 100%;
+    /*padding-top: 90px;*/
+    text-align: left;
+    /*background: #fff;*/
+}
+/*#prodct_id{
+  margin-bottom: 50px;
+}*/
+.slider_container{
+  margin-top: 50px;
+}
+.services-section{
+  height: 100%;
+  padding-top: 100px;
+  text-align: left;
+}
+.nav-tabs>li>a:hover {
+ background-color: #9d3179;
+  color: white;
+}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+color: #FFF;
+cursor: default;
+background-color: #9D3179;
+border: 1px solid #9D3179;
+}
+#message{
+  margin-bottom: 15px;
+}
+footer{
+      background: #9d3179;
+      color:#eee;
+      font-size:11px;
+      padding: 20px;
+      margin-top: 30px;
+   }
+    ul.unstyled{
+      list-style: none;
+      padding: 0px;
+   }
